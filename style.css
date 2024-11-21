@@ -1,0 +1,98 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* List Section */
+.list-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Preferences Section */
+.preferences-section {
+    flex: 1;
+    min-width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.preferences label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Themes */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark {
+    background-color: #333333;
+    color: #000000;
+}
+
+body.blue {
+    background-color: #9ce0ff;
+    color: #000000;
+}
+
+body.pink {
+    background-color: #ff97de;
+    color: #000000;
+}
+
+body.yellow {
+    background-color: #f9ee8a;
+    color: #000000;
+}
+
+body.green {
+    background-color: #a3f4a3;
+    color: #000000;
+}
+
+body.black {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* List Styles */
+.list.expanded li {
+    width: 100%;
+}
+
+.list.compact li {
+    width: auto;
+    padding: 5px;
+    margin-bottom: 3px;
+    font-size: 0.9em;
+}
+
+.list.bordered li {
+    border: 2px solid #000;
+}

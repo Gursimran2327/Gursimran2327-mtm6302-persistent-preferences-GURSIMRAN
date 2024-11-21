@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persistent Preferences</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="list-section">
+            <h1>List</h1>
+            <ul id="itemList" class="list"></ul>
+        </section>
+        <section class="preferences-section">
+            <h2>Preferences</h2>
+            <div class="preferences">
+                <label for="themeSelect">Theme:</label>
+                <select id="themeSelect">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="blue">Blue</option>
+                    <option value="pink">Pink</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="black">Black</option>
+                </select>
+
+                <label for="listStyleSelect">List Style:</label>
+                <select id="listStyleSelect">
+                    <option value="expanded">Expanded</option>
+                    <option value="compact">Compact</option>
+                    <option value="bordered">Bordered</option>
+                </select>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
